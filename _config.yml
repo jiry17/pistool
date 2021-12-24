@@ -1,0 +1,10 @@
+title: PISTool
+description: A library for inductive program synthesis in C++
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-slate
+github:
+  is_project_page: true
+  owner_name: Ruyi Ji
+  owner_url: https://jiry17.github.io/
+  site.github.repository_url: ./release-soon.html
