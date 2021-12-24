@@ -62,7 +62,7 @@ An algorithm synthesizer targets a predefined class of algorithms, and its task 
 
 <details>
 <summary>
-<strong>AutoLifter</strong> <a href="https://jiry17.github.io/paper/OOPSLA21.pdf">[Manuscript]</a></summary>
+<strong>AutoLifter</strong> <a href="./papers/AutoLifter.pdf">[Manuscript]</a></summary>
 <p><em>AutoLifter</em> applies divide-and-conquer to a user-provided program $p$ by synthesizing a lifting scheme $f$ and a combinator $c$ from the following formula.  
 </p>
 <p>$$\forall l_1, l_2 \in \texttt{List}, (p\ (l_1 \!+\!\!\!+\ l_2), f\ (l_1 \!+\!\!\!+\ l_2)) = c\ ((p\ l_1, f\ l_1), (p\ l_2, f\ l_2))$$</p>
@@ -75,7 +75,7 @@ An algorithm synthesizer targets a predefined class of algorithms, and its task 
 
 <details>
 <summary>
-<strong>MetHyl </strong> <a href="https://jiry17.github.io/paper/OOPSLA21.pdf">[Manuscript]</a></summary>
+<strong>MetHyl </strong> <a href="./papers/MetHyl.pdf">[Manuscript]</a></summary>
 <p><em>MetHyl</em> takes a (possibly inefficient) recursive program specified as a relational hylomorphism and produces an efficient memoization (or dynamic programming) program via thinning and incrementalization. It first uses a transformation system to decompose this task into four synthesis tasks, and then uses inductive synthesis techniques to solve them efficiently.
 </p>
 <p>Our evaluation is conducted on 37 tasks related to 16 optimization problems collected from <em>Introduction to Algorithm</em>. The result shows that <em>MetHyl</em> achieves exponential speed-ups on 97.3% tasks and the same time complexity as the reference solutions on 70.3% tasks with an average time cost of less than one minute.</p>
